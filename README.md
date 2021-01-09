@@ -1,4 +1,4 @@
-## Daniela Garcia HarvardX Data Science Movie Recommendation Capstone
+## HarvardX Data Science Capstone 1: Predicting Movie Ratings
 
 This repository contains the R code and final outputs of the Movie Recommendation model generated for my first HarvardX Data Science Capstone.
 
