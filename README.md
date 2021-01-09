@@ -6,7 +6,7 @@ This repository contains the R code and final outputs of the Movie Ratings model
 
 The final PDF report is stored as `danielagarcia-movies-final-report.pdf`. 
 
-To run the code yourself, clone the repository and run the `danielagarcia-movies-script.R` file. The script will re-generate the necessary `.Rdata` files to create the final Rmd report.
+To run the code yourself, clone the repository and open the `danielagarcia-capstone-movies.Rproj` file. Run the `danielagarcia-movies-script.R` script to re-generate the necessary `.Rdata` files to create the final Rmd report.
 
 ## About the Project
 
