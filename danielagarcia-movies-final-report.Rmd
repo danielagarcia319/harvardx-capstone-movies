@@ -50,7 +50,7 @@ The distribution of movies by the number of times they were rated is not equal. 
 Proportions Table of Ratings (edx):
 ```{r echo = F}
 # Generate prop table showing distribution of ratings
-load("ratings_distribution.Rdata")
+load("data/ratings_distribution.Rdata")
 ratings_distribution
 ```
 
@@ -58,11 +58,11 @@ Most frequently rated movie:
 
 ```{r echo = F, fig.width = 8, fig.height = 4}
 # Determine most frequently rated movie
-load("highest_rated.Rdata")
+load("data/highest_rated.Rdata")
 highest_rated
 
 # Plot Histogram of Ratings and Movie IDs
-load("hist_rating.Rdata"); load("hist_movie.Rdata")
+load("data/hist_rating.Rdata"); load("data/hist_movie.Rdata")
 par(mfrow = c(1,2))
 plot(hist_rating, main = "Histogram of Ratings (edx)", xlab = "rating")
 plot(hist_movie, main = "Histogram of Movie IDs (edx)", xlab = "movieId")
@@ -75,7 +75,7 @@ Based on these results, I decided to account for the effects from all four varia
 
 ```{r echo = F}
 # Determine correlations between average rating per movie, user, time, and genre with rating
-load("correlations.Rdata")
+load("data/correlations.Rdata")
 correlations
 ```
 
@@ -98,7 +98,7 @@ I repeated this process for different values of lambda (4 to 6, increasing in in
 
 ```{r echo = F}
 # Plot rmses versus lambdas
-load("rmses.Rdata"); load("lambdas.Rdata")
+load("data/rmses.Rdata"); load("data/lambdas.Rdata")
 plot(lambdas, rmses, main = "Scatterplot of RMSEs versus Lambdas")
 ```
 
