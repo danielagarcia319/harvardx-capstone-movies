@@ -211,10 +211,10 @@ validation_rmse
 
 ###### Save data as .Rdata for Markdown Report ######
 
-save(ratings_distribution, file = "ratings_distribution.Rdata")
-save(hist_rating, file = "hist_rating.Rdata")
-save(hist_movie, file = "hist_movie.Rdata")
-save(highest_rated, file = "highest_rated.Rdata")
-save(correlations, file = "correlations.Rdata")
-save(lambdas, file = "lambdas.Rdata")
-save(rmses, file = "rmses.Rdata")
+save(ratings_distribution, file = "data/ratings_distribution.Rdata")
+save(hist_rating, file = "data/hist_rating.Rdata")
+save(hist_movie, file = "data/hist_movie.Rdata")
+save(highest_rated, file = "data/highest_rated.Rdata")
+save(correlations, file = "data/correlations.Rdata")
+save(lambdas, file = "data/lambdas.Rdata")
+save(rmses, file = "data/rmses.Rdata")
