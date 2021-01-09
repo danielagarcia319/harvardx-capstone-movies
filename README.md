@@ -1,12 +1,12 @@
 ## HarvardX Data Science Capstone 1: Predicting Movie Ratings
 
-This repository contains the R code and final outputs of the Movie Recommendation model generated for my first HarvardX Data Science Capstone.
+This repository contains the R code and final outputs of the Movie Ratings model generated for my first HarvardX Data Science Capstone.
 
 ## Installation
 
 The final PDF report is stored as `danielagarcia-movies-final-report.pdf`. 
 
-To run the code yourself, clone the repo and run the `danielagarcia-movies-script.R` file. The script will re-generate the necessary `.Rdata` files to create the final Rmd report.
+To run the code yourself, clone the repository and run the `danielagarcia-movies-script.R` file. The script will re-generate the necessary `.Rdata` files to create the final Rmd report.
 
 ## About the Project
 
